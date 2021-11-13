@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Code Refactor Starter Code
 
 My first steps were to find anything broken or out of place in the site:
@@ -18,3 +19,6 @@ I found that nearly every piece was a div and made these corrections for accessi
 -updated the content section to article
 -updated the benefits section to aside
 -updated the footer section to footer
+=======
+# portfolio
+>>>>>>> e7122772b7f2a1b4ca294d2dca49f23302b53124
