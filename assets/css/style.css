@@ -61,6 +61,7 @@ p {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: flex-start;
+    
 }
 
 .Mefloatleft {
@@ -81,17 +82,19 @@ p {
 }
 
 .whatido {
-    flex: 0 0 60%;
+    flex: 0 0 50%;
     border: 1px solid gold;
     margin: 1.5%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-/* .whatido img {
-    max-width: 50%;
-    max-height: 30%;
-    border: gold solid;
-} */
+.whatido h2 {
+    margin: 1.5%;
+    padding: 5px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 36px;
+    text-align: left;
+}
 
 .runbuddy {
     margin: 1.5%;
@@ -100,16 +103,17 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: none;
     color: #ffffff;
+    text-align: left;
 }
 
 .runbuddy img {
-    max-width: 30%;
+    max-width: 50%;
     max-height: 20%;
     border: gold solid;
 }
 .runbuddy h2 {
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 40px;
 
 }
 .robot {
@@ -119,19 +123,22 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: none;
     color: #ffffff;
+    text-align: right;
+    font-size: 15px;
 }
 
 .robot img {
-    max-width: 15%;
-    max-height: 15%;
+    max-width: 25%;
+    max-height: 25%;
     border: gold solid;
 }
 .robot h2 {
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 40px;
 }
+
 .me {
-    flex: 0 0 20%;
+    flex: 0 0 25%;
     margin: 1.5%;
     /* height: 50vh; */
     padding-top: 15px;
@@ -161,8 +168,33 @@ p {
     opacity: .5;
 }
 
+.contact {
+    flex: 0 0 25%;
+    margin: 1.5%;
+    /* height: 50vh; */
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: none;
+    color: #ffffff;
+    border: 1px solid gold;
+    align-items: flex-start;
+
+}
+.contact h2 {
+    font-size: 40px;
+}
+.contact ul {
+    display: inline-flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
 .footer {
-    padding: 60px;
+    padding: 40px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: left;
@@ -174,13 +206,11 @@ p {
     font-size: 30px;
 }
 
-.footer ul {
-    display: inline-flex;
-    justify-content: space-between;
-}
+
 
 .footer p {
-    float: right;
+    float: left;
     color: black;
     border-bottom: solid black;
+
 }
