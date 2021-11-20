@@ -72,7 +72,7 @@ p {
 .Runbuddyfloatright {
     float: right;
     position: relative;
-    bottom: 50px;
+    bottom: 30px;
 }
 
 .Robotfloatleft {
@@ -104,6 +104,7 @@ p {
     background-color: none;
     color: #ffffff;
     text-align: left;
+    font-size: 40px;
 }
 
 .runbuddy img {
@@ -114,7 +115,10 @@ p {
 .runbuddy h2 {
     margin-bottom: 20px;
     font-size: 40px;
+}
 
+.runbuddy p {
+    font-size: 30px;
 }
 .robot {
     margin: 1.5%;
@@ -124,7 +128,7 @@ p {
     background-color: none;
     color: #ffffff;
     text-align: right;
-    font-size: 15px;
+    font-size: 40px;
 }
 
 .robot img {
@@ -135,6 +139,10 @@ p {
 .robot h2 {
     margin-bottom: 20px;
     font-size: 40px;
+}
+
+.robot p {
+    font-size: 30px;
 }
 
 .me {
@@ -169,7 +177,7 @@ p {
 }
 
 .contact {
-    flex: 0 0 25%;
+    flex: 0 0 30%;
     margin: 1.5%;
     /* height: 50vh; */
     padding-top: 15px;
@@ -182,6 +190,7 @@ p {
     color: #ffffff;
     border: 1px solid gold;
     align-items: flex-start;
+    bottom: 40px;
 
 }
 .contact h2 {
@@ -191,26 +200,29 @@ p {
     display: inline-flex;
     justify-content: space-between;
     list-style-type: none;
+    float: right;
 }
 
 .footer {
-    padding: 40px;
+    padding: 2%;
+    width: 100%;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: left;
-    font-size: 40px;
     color: gold;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .footer address {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 
-
-.footer p {
+.footer h2 {
     float: left;
     color: black;
     border-bottom: solid black;
-
+    top: 50px;
+    justify-content: space-between;
 }
