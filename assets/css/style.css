@@ -29,7 +29,7 @@ body {
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .header div ul {
@@ -52,8 +52,6 @@ p {
 }
 
 .hero {
-    
-    margin-bottom: 25px;
     background-image: url("../images/shiny-golden.jpg");
     background-size: cover;
     background-position: center;
@@ -61,7 +59,6 @@ p {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: flex-start;
-    
 }
 
 .Mefloatleft {
@@ -89,8 +86,8 @@ p {
 
 .whatido h2 {
     margin: 1.5%;
-    padding: 5px;
-    color: white;
+    padding: 22px;
+    color: gold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 36px;
     text-align: left;
@@ -111,6 +108,9 @@ p {
     max-width: 50%;
     max-height: 20%;
     border: gold solid;
+}
+.runbuddy h3 {
+    font-size: 50px;
 }
 .runbuddy h2 {
     margin-bottom: 20px;
@@ -159,7 +159,10 @@ p {
     color: #ffffff;
     border: 1px solid gold;
     align-items: flex-start;
+}
 
+.aboutme {
+    width: 30%;
 }
 
 .me img {
@@ -168,6 +171,7 @@ p {
 .me h2 {
     
     font-size: 36px;
+    color: gold;
 }
 
 /*-- updates --*/
@@ -179,19 +183,22 @@ p {
 .contact {
     flex: 0 0 30%;
     margin: 1.5%;
+    margin-top: 50px;
     /* height: 50vh; */
     padding-top: 15px;
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 15px;
-    font-size: 15px;
+    font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: none;
-    color: #ffffff;
+    color: gold;
     border: 1px solid gold;
     align-items: flex-start;
-    bottom: 40px;
-
+    bottom: 60px;
+}
+.contact a {
+    color: gold;
 }
 .contact h2 {
     font-size: 40px;
@@ -204,25 +211,53 @@ p {
 }
 
 .footer {
-    padding: 2%;
+    padding: 1%;
     width: 100%;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: left;
-    color: gold;
+    color: white;
     display: flex;
     flex-wrap: wrap;
+    background-color: black;
 }
 
 .footer address {
     font-size: 25px;
 }
 
-
 .footer h2 {
     float: left;
-    color: black;
+    color: rgb(71, 61, 3);
     border-bottom: solid black;
     top: 50px;
     justify-content: space-between;
+}
+
+.thumbnail {
+    transition: transform .3s;
+}
+
+.thumbnail:hover {
+    position:relative;
+    height:auto;
+    display:block;
+    z-index:999;
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width: 450px){
+    .aboutme {
+        width: 100%;
+
+    }
+    .me {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 942px){
+    .hero {
+        width: 100%;
+    }
 }
